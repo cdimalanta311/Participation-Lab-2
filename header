@@ -1,0 +1,24 @@
+//
+// Created by Christiansen on 8/31/2020.
+//
+
+#ifndef HELLO_RECTANGLE_H
+#define HELLO_RECTANGLE_H
+
+
+class  rectangle {
+private:
+    int length;
+    int width;
+
+public:
+    rectangle();
+    rectangle(int width, int length);
+    int area() const;
+    int perimeter() const;
+
+    rectangle(const int i);
+};
+
+
+#endif //HELLO_RECTANGLE_H
