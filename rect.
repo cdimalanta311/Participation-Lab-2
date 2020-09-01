@@ -1,0 +1,18 @@
+//
+// Created by Christiansen on 8/31/2020.
+//
+
+#include "rectangle.h"
+
+rectangle::rectangle() :width(1), length(1) {}
+rectangle::rectangle(int width, int legnth) :width(width), length(length) {}
+
+int rectangle::area() const
+{
+    return width * length;
+}
+int rectangle::perimeter() const
+{
+    return 2 * (length + width);
+}
+
